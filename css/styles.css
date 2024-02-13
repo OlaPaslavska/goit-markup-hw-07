@@ -11,6 +11,7 @@ ol {
   list-style-type: none;
 }
 .logo {
+    font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -53,7 +54,7 @@ ol {
 }
 .main-page {
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -74,10 +75,7 @@ button {
 }
 .button:focus,
 .button:hover {
-    color: #404bbf;
-}
-img {
-    display: block;
+   background-color: #404bbf;
 }
 .list-title {
     font-weight: 500;
@@ -152,6 +150,12 @@ img {
     color: #f4f4fd;
 }
 .logo-footer {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4d5ae5;
 }
 .footer-info {
