@@ -135,8 +135,8 @@ button {
 }
 .service-btn:focus,
 .service-btn:hover {
-    color:#fff
-   background-color: #404bbf;
+    color: #fff;
+    background-color: #404bbf;
 }
 .visually-hidden {
     position: absolute;
