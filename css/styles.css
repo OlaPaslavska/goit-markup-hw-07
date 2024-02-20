@@ -110,7 +110,6 @@ button {
     text-align: center;
     color: #fff;
 }
-
 .service-btn {
     font-family: inherit;
     justify-content: flex-start;
@@ -131,6 +130,7 @@ button {
     min-width: 169px;
     height: 56px;
     align-items: center;
+    cursor: pointer;
 }
 .service-btn:focus,
 .service-btn:hover {
@@ -146,7 +146,8 @@ button {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: hidden;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits {
     padding: 120px 0;
@@ -186,7 +187,7 @@ button {
     gap: 24px;
 }
 .team-list-name {
-    padding: 32px 0;
+    padding: 32px 0 32px;
 }
 .team-list-item {
     background-color: #fff;
@@ -207,7 +208,7 @@ button {
     color: #434455;
 }
 .team-profession {
-    padding: 8px;
+    margin-bottom: 8px;
 }
 .team-name {
     font-weight: 500;
@@ -218,14 +219,13 @@ button {
     color: #2e2f42;
 }
 .section-title {
-
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 74px;
 }
 .portfolio-list {
     display: flex;
