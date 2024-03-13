@@ -611,10 +611,11 @@ button {
 .review-form-privacy-chekbox:checked+.review-form-chekbox-label .review-form-own-chekbox {
     background-color: #404bbf;
     fill: #f4f4fd;
-    border-color: none;
+    border: none;
 }
 .review-form-privacy-chekbox:focus+.review-form-chekbox-label .review-form-own-chekbox {
     outline: 2px solid ;
+    border: none;
 }
 .privacy-policy-link {
     text-decoration: underline;
