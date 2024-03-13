@@ -485,6 +485,11 @@ button {
     color: #fff;
     cursor: pointer;
 }
+.label-for-telegram {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
 .svg-for-telegram {
     margin-left: 16px;
     fill: #fff;
